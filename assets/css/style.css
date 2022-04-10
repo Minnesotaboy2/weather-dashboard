@@ -5,22 +5,30 @@ header {
     color: white;
 }
 
-.city-input {
+section {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+
 }
 
+ .city-input {
+    display: flex;
+    flex-direction: column;
+ }
+/* 
 #city-input-text {
     width: 15pc;
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 10px;
     margin-bottom: 5px;
-}
+} 
 
 #search-btn {
     width: 15pc;
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 5px;
-}
+}  */
+
+
