@@ -1,1 +1,26 @@
-body {background-color: bisque;}
+header {
+    text-align: center;
+    font-size: 45pt;
+    background-image: radial-gradient(blue, indigo);
+    color: white;
+}
+
+.city-input {
+    display: flex;
+    flex-direction: column;
+}
+
+#city-input-text {
+    width: 15pc;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#search-btn {
+    width: 15pc;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
