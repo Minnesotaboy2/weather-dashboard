@@ -20,8 +20,8 @@ function setup(e) {
 
 function weather() {
     fetch(queryURL)
-    .then(response => response.json())
-    .then(data => gotData(data))
+        .then(response => response.json())
+        .then(data => gotData(data))
     // document.createElement()
 }
 
@@ -30,9 +30,9 @@ function retrived(data) {
     console.log(data)
 }
 function gotData(data) {
- info = data;
- console.log(info);
- display()
+    info = data;
+    console.log(info);
+    display()
 }
 function display() {
     temp.innerText = "Curent Temperature: " + info.main.temp

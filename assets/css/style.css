@@ -1,34 +1,40 @@
 header {
     text-align: center;
-    font-size: 45pt;
+    font-size: 3pc;
     background-image: radial-gradient(blue, indigo);
     color: white;
 }
 
-section {
+section div {
     display: flex;
-    flex-wrap: wrap;
-
 }
 
- .city-input {
-    display: flex;
+.city-input {
     flex-direction: column;
- }
-/* 
+}
+
+.display {
+    flex-direction: column;
+}
+
 #city-input-text {
     width: 15pc;
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 10px;
     margin-bottom: 5px;
-} 
+}
 
 #search-btn {
     width: 15pc;
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 5px;
-}  */
+}
 
-
+@media screen and (max-width: 760px ) {
+    section div {
+        flex-wrap: wrap;
+        float: left;
+    }
+}
